@@ -19,6 +19,15 @@ client.on('message', msg => {
    
     }
   });
+client.on('message', msg => {
+    if (msg.content === '.search @seth') {
+        color: 3447003,
+      msg.reply('```👤 Username :\r\@Seth,Seth,Seth A Robinsons \r\ Home :' + '\r\ 6-17-5 Makuyama, Fukuyama Hiroshima 721-0913 JP ' + '\r\ Phone: +81.849482151 \r\ Email:rtsoftjapan@gmail.com\r\Growtopia Password : \r\NULL```')
+      
+   
+   
+    }
+  });
   client.on('message', msg => {
     if (msg.content === '.semi') {
         color: 3447003,
