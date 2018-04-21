@@ -65,24 +65,7 @@ client.on('message', msg => {
    
     }
   });
-  client.on('message', msg => {
-    if (msg.content === '.search shield') {
-        color: 3447003,
-        msg.reply('``` There is just 1 person in our database \r\ 👤 Username :\r\Shield , kakka \r\Phone number: ' + '\r\Blacklisted ' + '\r\HIS REAL NAME:\r\Blacklisted \r\ISP :\r\Elisa Oyj\r\Growtopia username:\r\Blacklisted\r\Growtopia Password : \r\6bffcdacd526dcf43da376cdb6cbba7035218921```')
-      
-   
-   
-    }
-  });
-  client.on('message', msg => {
-    if (msg.content === '.search alix') {
-        color: 3447003,
-        msg.reply('``` There is just 1 person in our database \r\ 👤 Username :\r\Your mama fat\r\Phone number: ' + '\r\wanna get swatted? ' + '\r\HIS REAL NAME:\r\i dont tkink soo \r\ISP :\r\Auschwitz Cell\r\Growtopia username:\r\fuck you\r\Growtopia Password : \r\neee```')
-      
-   
-   
-    }
-  });
+ 
   client.on('message', msg => {
     if (msg.content === '.search reyizhax') {
         color: 3447003,
