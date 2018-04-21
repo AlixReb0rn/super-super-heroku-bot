@@ -4,50 +4,6 @@ const client = new Discord.Client();
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
-function message(id,txt,embedded) {
-var msgOptions = {
-    "embed":embedded||'',
-    "content":txt,
-    "nonce":false,
-    "tts":false,
-    "file":''
-}
-    var postBody = querystring.stringify(msgOptions);
-    var options = {
-        host: 'discordapp.com',
-        path: '/api/channels/'+id+'/messages',
-        method: 'POST',
-        headers: {
-            'Authorization': token,
-            'Content-Type': 'application/x-www-form-urlencoded',
-            'Content-Length': postBody.length,
-        }   
-    }
-    var postreq = https.request(options, function (res) {  ....
-
-    });
-    postreq.write(postBody);
-    postreq.end();
-}
-const Embed = {
-                        "title": "Site Support",
-                        "description": "Support for all [site](https://site/) inquiries",
-                        "color": 1453004,
-                        "timestamp": (new Date),
-                        "footer": {
-                            "icon_url": "https://cdn.discordapp.com/embed/avatars/0.png",
-                            "text": "Contact @iJava#7953 if you encounter any issues with this bot."
-                        },
-                        "thumbnail": {
-                            "url": "https://cdn.discordapp.com/embed/avatars/0.png"
-                        },
-                        "fields": [
-                            {
-                                "name": "Respond with one of the following options:",
-                                "value": "*eg*: **!1** or **!2**\n\n**!1** General Support\n**!2** Purchase Support\n**!3** Other"
-                            }
-                        ]
-                    };
 
 client.on('message', msg => {
   if (msg.content === '.tos') {
@@ -59,7 +15,7 @@ client.on('message', msg => {
         color: 3447003,
       msg.reply('```👤 Username :\r\AFDABZ \r\IP Address :' + '\r\NULL ' + '\r\Country (Can be vpn):\r\Finland/Suomi \r\Growtopia username:\r\AFDABZ1,AFDABZ2,AFDABZ3,AFDABZ10\r\Growtopia Password : \r\NULL```')
       
-                       message(id, "Help is on the way!", Embed);
+                     
 
    
     }
