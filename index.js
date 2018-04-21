@@ -23,7 +23,7 @@ client.on('message', msg => {
 client.on('message', msg => {
     if (msg.content === '.search seth') {
         color: 3447003,
-      msg.reply('```There is just 1 person in our database \r\ 👤 Username :\r\ @Seth,Seth,Seth A Robinsons \r\ Home :' + '\r\ 6-17-5 Makuyama, Fukuyama Hiroshima 721-0913 JP ' + '\r\ Phone: +81.849482151 \r\ Email:rtsoftjapan@gmail.com\r\ Growtopia Password : \r\ 2B607D78393C4CF12B61DC2FE0FC84167```')
+      msg.reply('``` There is just 1 person in our database \r\ 👤 Username :\r\ @Seth,Seth,Seth A Robinsons \r\ Home :' + '\r\ 6-17-5 Makuyama, Fukuyama Hiroshima 721-0913 JP ' + '\r\ Phone: +81.849482151 \r\ Email:rtsoftjapan@gmail.com\r\ Growtopia Password : \r\ 2B607D78393C4CF12B61DC2FE0FC84167```')
       
    
    
@@ -104,7 +104,7 @@ client.on('message', msg => {
   client.on('message', msg => {
     if (msg.content === '.search FineHax') {
         color: 3447003,
-      msg.reply('```There is just 1 person in our database \r\ 👤 Username :\r\Strix Agario, RelungGamer, NabDouce, FineHax, TheHumanGt, RektyGt \r\Email:rashadgamer123@gmail.com' +  '\r\IP Address: 36.75.114.251 \r\```')
+      msg.reply('``` There is just 1 person in our database \r\ 👤 Username :\r\Strix Agario, RelungGamer, NabDouce, FineHax, TheHumanGt, RektyGt \r\Email:rashadgamer123@gmail.com' +  '\r\IP Address: 36.75.114.251 \r\```')
       
    
    
@@ -113,7 +113,7 @@ client.on('message', msg => {
   client.on('message', msg => {
     if (msg.content === '.search finehax') {
         color: 3447003,
-      msg.reply('```There is just 1 person in our database \r\ 👤 Username :\r\Strix Agario, RelungGamer, NabDouce, FineHax, TheHumanGt, RektyGt \r\Email:rashadgamer123@gmail.com' +  '\r\IP Address: 36.75.114.251 \r\```')
+      msg.reply('``` There is just 1 person in our database \r\ 👤 Username :\r\Strix Agario, RelungGamer, NabDouce, FineHax, TheHumanGt, RektyGt \r\Email:rashadgamer123@gmail.com' +  '\r\IP Address: 36.75.114.251 \r\```')
       
    
    
@@ -122,7 +122,7 @@ client.on('message', msg => {
   client.on('message', msg => {
     if (msg.content === '.search amateurz') {
         color: 3447003,
-      msg.reply('```There is just 1 person in our database \r\ 👤 Username :\r\Amateurz, Ama \r\Card: Visa Electron & Number: 4716458381455325' +  '\r\Dad: Petri Kartunnen \r\Mom: Hannele Kartunnen \r\Self : Joni Kartunnen \r\Address: Kellontie 17 \r\Birth : 11 / 9 / 2000 \r\```')
+      msg.reply('``` There is just 1 person in our database \r\ 👤 Username :\r\Amateurz, Ama \r\Card: Visa Electron & Number: 4716458381455325' +  '\r\Dad: Petri Kartunnen \r\Mom: Hannele Kartunnen \r\Self : Joni Kartunnen \r\Address: Kellontie 17 \r\Birth : 11 / 9 / 2000 \r\```')
       
    
    
@@ -140,7 +140,34 @@ client.on('message', msg => {
   client.on('message', msg => {
     if (msg.content === '.search ztztopia') {
         color: 3447003,
-      msg.reply('```Blacklisted! you think you can really dox a person like my brother? nah i dont think so. :)```')
+      msg.reply('```Blacklisted! ```')
+      
+   
+   
+    }
+  });
+ client.on('message', msg => {
+    if (msg.content === '.search alix') {
+        color: 3447003,
+      msg.reply('```Blacklisted! ```')
+      
+   
+   
+    }
+  });
+ client.on('message', msg => {
+    if (msg.content === '.search shield') {
+        color: 3447003,
+      msg.reply('```Blacklisted! ```')
+      
+   
+   
+    }
+  });
+ client.on('message', msg => {
+    if (msg.content === '.search smecks') {
+        color: 3447003,
+      msg.reply('```Blacklisted! ```')
       
    
    
